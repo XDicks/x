@@ -16,7 +16,7 @@ cat << EOF > /usr/local/etc/v2ray/config.json
 {
     "inbounds": [
         {
-            "port": 233,
+            "port": $port,
             "protocol": "vmess",
             "settings": {
                 "clients": [
